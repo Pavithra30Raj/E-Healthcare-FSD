@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E-HealthCare-FSDProject", "ProiectFinal\E-HealthCare-FSDProject.csproj", "{56135ED1-5420-426D-9EA4-775F28A295EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E-HealthCareApp-FSDProject", "ProiectFinal\E-HealthCareApp-FSDProject.csproj", "{56135ED1-5420-426D-9EA4-775F28A295EC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
