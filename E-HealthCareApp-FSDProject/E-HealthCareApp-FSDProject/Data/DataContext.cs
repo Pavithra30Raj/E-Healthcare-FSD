@@ -1,7 +1,7 @@
-﻿using ProiectFinal.Models;
+﻿using E_HealthCareApp_FSDProject.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace ProiectFinal.Data
+namespace E_HealthCareApp_FSDProject.Data
 {
     public class DataContext : DbContext
     {

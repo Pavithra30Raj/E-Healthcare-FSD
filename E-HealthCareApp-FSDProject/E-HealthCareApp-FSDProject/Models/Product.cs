@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace ProiectFinal.Models
+namespace E_HealthCareApp_FSDProject.Models
 {
     public class Product
     {

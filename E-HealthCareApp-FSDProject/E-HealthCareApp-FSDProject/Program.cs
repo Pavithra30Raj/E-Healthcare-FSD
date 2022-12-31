@@ -2,10 +2,10 @@ global using Microsoft.AspNetCore.Authentication.JwtBearer;
 global using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
-using ProiectFinal.Controllers.Services.DateTimeService;
-using ProiectFinal.Controllers.Services.TokenManager;
-using ProiectFinal.Controllers.Services.UserService;
-using ProiectFinal.Data;
+using E_HealthCareApp_FSDProject.Controllers.Services.DateTimeService;
+using E_HealthCareApp_FSDProject.Controllers.Services.TokenManager;
+using E_HealthCareApp_FSDProject.Controllers.Services.UserService;
+using E_HealthCareApp_FSDProject.Data;
 using Swashbuckle.AspNetCore.Filters;
 using System.Text;
 

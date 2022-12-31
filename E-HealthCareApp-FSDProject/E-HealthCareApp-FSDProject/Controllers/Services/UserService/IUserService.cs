@@ -1,4 +1,4 @@
-﻿namespace ProiectFinal.Controllers.Services.UserService
+﻿namespace E_HealthCareApp_FSDProject.Controllers.Services.UserService
 {
     public interface IUserService
     {

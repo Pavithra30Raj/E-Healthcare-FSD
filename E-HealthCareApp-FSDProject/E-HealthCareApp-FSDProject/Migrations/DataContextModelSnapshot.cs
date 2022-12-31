@@ -4,11 +4,11 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using ProiectFinal.Data;
+using E_HealthCareApp_FSDProject.Data;
 
 #nullable disable
 
-namespace ProiectFinal.Migrations
+namespace E_HealthCareApp_FSDProject.Migrations
 {
     [DbContext(typeof(DataContext))]
     partial class DataContextModelSnapshot : ModelSnapshot
@@ -22,7 +22,7 @@ namespace ProiectFinal.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
-            modelBuilder.Entity("ProiectFinal.Models.Account", b =>
+            modelBuilder.Entity("E_HealthCareApp_FSDProject.Models.Account", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -73,7 +73,7 @@ namespace ProiectFinal.Migrations
                     b.ToTable("Accounts");
                 });
 
-            modelBuilder.Entity("ProiectFinal.Models.Cart", b =>
+            modelBuilder.Entity("E_HealthCareApp_FSDProject.Models.Cart", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -98,7 +98,7 @@ namespace ProiectFinal.Migrations
                     b.ToTable("Carts");
                 });
 
-            modelBuilder.Entity("ProiectFinal.Models.Order", b =>
+            modelBuilder.Entity("E_HealthCareApp_FSDProject.Models.Order", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -128,7 +128,7 @@ namespace ProiectFinal.Migrations
                     b.ToTable("Orders");
                 });
 
-            modelBuilder.Entity("ProiectFinal.Models.Product", b =>
+            modelBuilder.Entity("E_HealthCareApp_FSDProject.Models.Product", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()

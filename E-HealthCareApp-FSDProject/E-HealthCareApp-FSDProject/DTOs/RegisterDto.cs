@@ -1,4 +1,4 @@
-﻿namespace ProiectFinal.DTOs
+﻿namespace E_HealthCareApp_FSDProject.DTOs
 {
     public class RegisterDto
     {

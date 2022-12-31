@@ -1,6 +1,6 @@
-﻿using ProiectFinal.Models;
+﻿using E_HealthCareApp_FSDProject.Models;
 
-namespace ProiectFinal.Controllers.Services.TokenManager
+namespace E_HealthCareApp_FSDProject.Controllers.Services.TokenManager
 {
     public interface ITokenManager
     {

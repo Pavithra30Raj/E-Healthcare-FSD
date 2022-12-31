@@ -1,12 +1,12 @@
 ﻿using Microsoft.IdentityModel.Tokens;
-using ProiectFinal.Controllers.Services.DateTimeService;
-using ProiectFinal.Data;
-using ProiectFinal.Models;
+using E_HealthCareApp_FSDProject.Controllers.Services.DateTimeService;
+using E_HealthCareApp_FSDProject.Data;
+using E_HealthCareApp_FSDProject.Models;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Security.Cryptography;
 
-namespace ProiectFinal.Controllers.Services.TokenManager
+namespace E_HealthCareApp_FSDProject.Controllers.Services.TokenManager
 {
     public class TokenManager : ITokenManager
     {

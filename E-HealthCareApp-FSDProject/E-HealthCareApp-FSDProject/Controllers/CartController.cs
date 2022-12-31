@@ -1,13 +1,13 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
-using ProiectFinal.Controllers.Services.UserService;
-using ProiectFinal.Data;
-using ProiectFinal.Models;
+using E_HealthCareApp_FSDProject.Controllers.Services.UserService;
+using E_HealthCareApp_FSDProject.Data;
+using E_HealthCareApp_FSDProject.Models;
 using System.Collections;
 using System.Collections.Generic;
 
-namespace ProiectFinal.Controllers
+namespace E_HealthCareApp_FSDProject.Controllers
 {
     [ApiController]
     [Route("[controller]")]

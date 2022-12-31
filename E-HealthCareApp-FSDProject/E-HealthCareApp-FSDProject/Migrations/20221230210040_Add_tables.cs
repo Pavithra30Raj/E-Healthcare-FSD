@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace ProiectFinal.Migrations
+namespace E_HealthCareApp_FSDProject.Migrations
 {
     public partial class Add_tables : Migration
     {

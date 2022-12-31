@@ -1,4 +1,4 @@
-﻿namespace ProiectFinal.Controllers.Services.DateTimeService
+﻿namespace E_HealthCareApp_FSDProject.Controllers.Services.DateTimeService
 {
     public interface IDateTimeProvider
     {
